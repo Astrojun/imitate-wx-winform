@@ -1,0 +1,63 @@
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\close0.png
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\close1.png
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\cloud.png
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\loginbody.png
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\logo32.ico
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\mini0.png
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\mini1.png
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\sun2.png
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\yezi2.png
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Images\yezi3.png
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\WindowsFormsTest2.exe.config
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\WindowsFormsTest2.exe
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\WindowsFormsTest2.pdb
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\DevCapture.dll
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\FastColoredTextBox.dll
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\IPlugins.dll
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Newtonsoft.Json.dll
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\TabStrip.dll
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\FastColoredTextBox.xml
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\bin\Debug\Newtonsoft.Json.xml
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.ControlInfo.TextBoxSearch.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.ControlInfo.TextBoxWatermark.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\DevCaptureTool.FrmMain.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.Form1.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.FormInfo.FormLogIn.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.FormInfo.FormSetting.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.FormInfo.FormTest1.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.FormInfo.Kugou.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.FormInfo.QQ.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.FormInfo.SuperMario.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.Properties.Resources.resources
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.csproj.GenerateResource.Cache
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.exe
+D:\Program Files\VSProjects\WindowsFormsTest2\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.pdb
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\WindowsFormsTest2.exe.config
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.exe
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.pdb
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.ControlInfo.TextBoxSearch.resources
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.ControlInfo.TextBoxWatermark.resources
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\DevCaptureTool.FrmMain.resources
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.Form1.resources
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.FormInfo.FormLogIn.resources
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.FormInfo.FormSetting.resources
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.FormInfo.FormTest1.resources
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.Properties.Resources.resources
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.csproj.GenerateResource.Cache
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\close0.png
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\close1.png
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\cloud.png
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\loginbody.png
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\logo32.ico
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\mini0.png
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\mini1.png
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\sun2.png
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\yezi2.png
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Images\yezi3.png
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\WindowsFormsTest2.exe
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\WindowsFormsTest2.pdb
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Newtonsoft.Json.dll
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Newtonsoft.Json.xml
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.csprojResolveAssemblyReference.cache
+E:\winform仿微信客户端\WindowsFormsTest2\bin\Debug\Microsoft.mshtml.dll
+E:\winform仿微信客户端\WindowsFormsTest2\obj\x86\Debug\WindowsFormsTest2.csproj.CoreCompileInputs.cache

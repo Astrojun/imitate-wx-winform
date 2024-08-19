@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{743E2D94-262D-42B7-8AF6-D9FC605F17FD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsTest2</RootNamespace>
+    <AssemblyName>WindowsFormsTest2</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevCapture">
+      <HintPath>..\..\..\..\ChromeDownload\capture\DevCapture.dll</HintPath>
+    </Reference>
+    <Reference Include="FastColoredTextBox">
+      <HintPath>..\..\..\..\ChromeDownload\FastColoredTextBox-master\Binary\FastColoredTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="IPlugins">
+      <HintPath>..\..\..\..\ChromeDownload\capture\IPlugins.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net20\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TabStrip">
+      <HintPath>..\..\..\..\ChromeDownload\FastColoredTextBox-master\Binary\TabStrip.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClassInfo\ContactsInfo.cs" />
+    <Compile Include="ClassInfo\FriendInfo.cs" />
+    <Compile Include="ClassInfo\MyFormatter.cs" />
+    <Compile Include="ClassInfo\ObjectPropertyCompare.cs" />
+    <Compile Include="ClassInfo\TransactionInfo.cs" />
+    <Compile Include="ControlHelper\ControlDesignerCellStyle.cs" />
+    <Compile Include="ControlHelper\ControlHelper.cs" />
+    <Compile Include="ControlHelper\FormHelper.cs" />
+    <Compile Include="ControlHelper\MouseHelper.cs" />
+    <Compile Include="ControlHelper\NativeMethods.cs" />
+    <Compile Include="ControlHelper\RichTextBoxPrinter.cs" />
+    <Compile Include="ControlHelper\ToolStripRendererHelpr.cs" />
+    <Compile Include="ControlInfo\TabControlEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\DataGridViewImageAndTextColumn.cs" />
+    <Compile Include="ControlInfo\TextBoxSearch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\TextBoxSearch.designer.cs">
+      <DependentUpon>TextBoxSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlHelper\TextHelper.cs" />
+    <Compile Include="ControlInfo\DataGridViewRichTextBoxColumn.cs" />
+    <Compile Include="ControlInfo\DataGridViewSummary.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\DataGridViewSummary.designer.cs">
+      <DependentUpon>DataGridViewSummary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlInfo\HScrollBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\HScrollBarEx.Designer.cs">
+      <DependentUpon>HScrollBarEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlInfo\RadioButtonEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\RadioButtonEx.Designer.cs">
+      <DependentUpon>RadioButtonEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlInfo\ReadOnlyTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\ReadOnlyTextBox.designer.cs">
+      <DependentUpon>ReadOnlyTextBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlInfo\SummaryControlContainer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\TextBoxWatermark.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\TextBoxWatermark.Designer.cs">
+      <DependentUpon>TextBoxWatermark.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlInfo\ToolStripEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\ToolStripEx.Designer.cs">
+      <DependentUpon>ToolStripEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ControlInfo\VScrollBarEx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ControlInfo\VScrollBarEx.Designer.cs">
+      <DependentUpon>VScrollBarEx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cut\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cut\FrmMain.designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cut\KeyHook.cs" />
+    <Compile Include="cut\Win32.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInfo\FormLogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInfo\FormLogIn.Designer.cs">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInfo\FormSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInfo\FormSetting.Designer.cs">
+      <DependentUpon>FormSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormInfo\FormTest1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormInfo\FormTest1.Designer.cs">
+      <DependentUpon>FormTest1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ControlInfo\TextBoxSearch.resx">
+      <DependentUpon>TextBoxSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ControlInfo\TextBoxWatermark.resx">
+      <DependentUpon>TextBoxWatermark.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cut\FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInfo\FormLogIn.resx">
+      <DependentUpon>FormLogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInfo\FormSetting.resx">
+      <DependentUpon>FormSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormInfo\FormTest1.resx">
+      <DependentUpon>FormTest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\close0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\close1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\cloud.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\loginbody.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\logo32.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\mini0.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\mini1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\sun2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\yezi2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\yezi3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\src_image_none.png" />
+    <None Include="Resources\separator.png" />
+    <None Include="Resources\QBtn_Glass_Hover.png" />
+    <None Include="Resources\ok.png" />
+    <None Include="Resources\frm_out.ico" />
+    <None Include="Resources\cancel.png" />
+    <None Include="Resources\btn_text.png" />
+    <None Include="Resources\btn_save.png" />
+    <None Include="Resources\btn_rect.png" />
+    <None Include="Resources\btn_out.png" />
+    <None Include="Resources\btn_ok.png" />
+    <None Include="Resources\btn_mosaic.png" />
+    <None Include="Resources\btn_ellips.png" />
+    <None Include="Resources\btn_close.png" />
+    <None Include="Resources\btn_cancel.png" />
+    <None Include="Resources\btn_brush.png" />
+    <None Include="Resources\btn_arrow.png" />
+    <None Include="Resources\brush.png" />
+    <None Include="Resources\back_toolbar.png" />
+    <None Include="Resources\alpha_back.png" />
+    <None Include="Resources\Icon.ico" />
+    <None Include="Resources\back.png" />
+    <None Include="Resources\tabbuttonbackground.bmp" />
+    <None Include="Resources\PictureLogIn.jpg" />
+    <None Include="Resources\PicLogIn.png" />
+    <None Include="Resources\btSetting.png" />
+    <None Include="Resources\btVoice.png" />
+    <None Include="Resources\btVideo.png" />
+    <None Include="Resources\btSearch.png" />
+    <None Include="Resources\btFriendSel.png" />
+    <None Include="Resources\btFriend.png" />
+    <None Include="Resources\btFile.png" />
+    <None Include="Resources\btFavoriteSel.png" />
+    <None Include="Resources\btFavorite.png" />
+    <None Include="Resources\btFace.png" />
+    <None Include="Resources\btDelete.png" />
+    <None Include="Resources\btCutScreen.png" />
+    <None Include="Resources\btChatSel.png" />
+    <None Include="Resources\btChat.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
